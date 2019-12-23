@@ -28,6 +28,7 @@ y = calc(x)
 
 input1 = browser.find_element_by_xpath("//input[@id='answer']")
 input1.send_keys(y)
+#комментарий
 
 button = browser.find_element_by_id("solve")
 button.click()
